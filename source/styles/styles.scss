@@ -1,5 +1,6 @@
 /* GLOBAL */
 @import "./common/variables.scss";
+@import "./common/mixins.scss";
 @import "./common/fonts.scss";
 @import "./common/global.scss";
 @import "./common/visually-hidden.scss";
@@ -7,6 +8,7 @@
 
 /* BLOCKS */
 @import "./blocks/page.scss";
+@import "./blocks/button.scss";
 @import "./blocks/page-title.scss";
 @import "./blocks/header.scss";
 @import "./blocks/burger-button.scss";
@@ -23,7 +25,6 @@
 @import "./blocks/socials-list.scss";
 @import "./blocks/copyright.scss";
 @import "./blocks/catalog.scss";
-@import "./blocks/button.scss";
 @import "./blocks/card.scss";
 @import "./blocks/extras.scss";
 @import "./blocks/bonus.scss";
