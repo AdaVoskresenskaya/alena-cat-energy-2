@@ -1,5 +1,14 @@
 .bonus {
-  background-color: #68b738;
+  background-color: $accent-color;
+  opacity: 0.85;
+
+  &::before {
+    content: "";
+    background-image: url("../../icons/stack.svg#icon-gift");
+    width: 80px;
+    height: 82px;
+    display: inline-block;
+  }
 }
 
 .bonus__description {
