@@ -4,11 +4,44 @@
   line-height: 37px;
   color: #000000;
   text-transform: uppercase;
+  position: relative;
+  display: flex;
+  gap: 20px;
+
+  &::before {
+    content: "";
+    display: inline-block;
+    background-color: $accent-color;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+  }
+
+  &--slim::after {
+    content: "";
+    background-image: url("../../icons/stack.svg#cat-slim");
+    position: absolute;
+    width: 36px;
+    height: 50px;
+    left: 7px;
+    top: -2px;
+  }
+
+  &--pro::after {
+    content: "";
+    background-image: url("../../icons/stack.svg#cat-pro");
+    position: absolute;
+    width: 67px;
+    height: 28px;
+    left: -8px;
+    top: 12px;
+  }
 }
 
 .programms__item {
   background-color: #f2f2f2;
 }
+
 
 .programms__description {
   font-size: 14px;
@@ -22,4 +55,16 @@
   color: #000000;
   text-transform: uppercase;
   text-decoration: none;
+  display: flex;
+  gap: 14px;
+  align-items: center;
+
+  &::after {
+    content: "";
+    background-image: url(../../icons/stack.svg#icon-arrow);
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 12px;
+    display: inline-block;
+}
 }

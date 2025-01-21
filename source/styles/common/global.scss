@@ -2,3 +2,9 @@ body {
   font-family: $primary-font;
   color: $basic-text-color;
 }
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
